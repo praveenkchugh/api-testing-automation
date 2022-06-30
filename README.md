@@ -36,8 +36,12 @@
 
 1. create a csv with below structure and place it under "input" folder
 
+######### File Contents
+
 tcnum,mule_api_url,java_api_url,no_of_executions
+
 tc1,https://mule_server/api/v1/customers?customerNumber=12345,https://java_server/api/v1/customers?customerNumber=12345,5
+
 tc2,https://mule_server/api/v1/customers?customerNumber=12345,https://java_server/api/v1/customers?customerNumber=12345,5
 
 2. Program will run in backend and process as below:
