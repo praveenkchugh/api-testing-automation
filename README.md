@@ -36,13 +36,15 @@
 
 1. create a csv with below structure and place it under "input" folder
 
-######### File Contents
+######### File Contents Starts
 
 tcnum,mule_api_url,java_api_url,no_of_executions
 
 tc1,https://mule_server/api/v1/customers?customerNumber=12345,https://java_server/api/v1/customers?customerNumber=12345,5
 
 tc2,https://mule_server/api/v1/customers?customerNumber=12345,https://java_server/api/v1/customers?customerNumber=12345,5
+
+######### File Contents Completed
 
 2. Program will run in backend and process as below:
     2.1 call mule_api_url 5 times for tc1 & tc2 and place the response under "mule-api-response"
