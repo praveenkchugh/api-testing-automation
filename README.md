@@ -14,15 +14,20 @@
 5. Create below Folder structure in your system
 
     C:\api-testing-automation
+    
     C:\api-testing-automation\archived
+    
     C:\api-testing-automation\auth0
+    
     C:\api-testing-automation\input
+    
     C:\api-testing-automation\java-api-response
+    
     C:\api-testing-automation\mule-api-response
 
 6. Place auth0 config file under "auth0" folder
 
-  Sample File:
+Sample Configuration File:
   
 {
     "url": "https://auth0.xxxxxxxxx.xxxxxxxx.com/oauth/token",
