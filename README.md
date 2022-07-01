@@ -33,7 +33,7 @@ Sample Configuration File:
     "url": "https://auth0.xxxxxxxxx.xxxxxxxx.com/oauth/token",
     "client_id":"ABCFDAJDHALJSasdaljdsasHC",
     "client_secret":"asdlkjasSADkADkhaakshfsakhFAA_sakahf_ashakjf",
-    "audience":"https://abc.wfs.wfscorp.com",
+    "audience":"https://abc.org.server.com",
     "grant_type":"client_credentials"
 }
 
@@ -41,13 +41,14 @@ Sample Configuration File:
 
 1. create a csv with below structure and place it under "input" folder
 
+Please note: method & no_of_executions are optional default values are method = GET & no_of_executions = 1
 ######### File Contents Starts
 
-tcnum,mule_api_url,java_api_url,no_of_executions
+tcnum,mule_api_url,java_api_url,no_of_executions,method
 
-tc1,https://mule_server/api/v1/customers?customerNumber=12345,https://java_server/api/v1/customers?customerNumber=12345,5
+tc1,https://mule_server/api/v1/customers?customerNumber=12345,https://java_server/api/v1/customers?customerNumber=12345,5,GET
 
-tc2,https://mule_server/api/v1/customers?customerNumber=12345,https://java_server/api/v1/customers?customerNumber=12345,5
+tc2,https://mule_server/api/v1/customers?customerNumber=12345,https://java_server/api/v1/customers?customerNumber=12345,5,GET
 
 ######### File Contents Completed
 
