@@ -42,6 +42,7 @@ Sample Configuration File:
 1. create a csv with below structure and place it under "input" folder
 
 Please note: method & no_of_executions are optional default values are method = GET & no_of_executions = 1
+
 ######### File Contents Starts
 
 tcnum,mule_api_url,java_api_url,no_of_executions,method
